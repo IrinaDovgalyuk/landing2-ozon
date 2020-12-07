@@ -1,0 +1,18 @@
+@import './font.css';
+@import './normalize.css';
+@import './header.css';
+@import './hero.css';
+@import './button.css';
+
+.mainWrappper {
+	max-width: 1600px;
+	width: 100%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-areas: 
+		'. header .'
+		'. hero .';
+	grid-template-columns: 92px 1fr 92px;
+	font-family: osReg;
+	color: #001A34;
+}

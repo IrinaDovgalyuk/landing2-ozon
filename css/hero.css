@@ -1,0 +1,39 @@
+.hero {
+	grid-area: hero;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 708px;
+}
+
+.heroFirst {
+	background: url(../img/top-2x-min.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.hero__info {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	max-width: 550px;
+	width: 100%;
+	color: #ffffff;
+	padding-left: 120px;
+}
+
+.hero__infoTitle {
+	margin: 0 0 16px;
+	font-family: osBold;
+	font-size: 58px;
+	line-height: 68px;
+	letter-spacing: 1px;
+}
+
+.hero__infoDescription {
+	margin: 0 0 32px;
+	font-family: osLight;
+	font-size: 24px;
+	line-height: 32px;
+	letter-spacing: 0.6px;
+}
