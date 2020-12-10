@@ -1,8 +1,11 @@
+@import './variables.css';
 @import './font.css';
 @import './normalize.css';
 @import './header.css';
 @import './hero.css';
 @import './button.css';
+@import './courses.css';
+@import './advantages.css';
 
 .mainWrappper {
 	max-width: 1600px;
@@ -11,8 +14,11 @@
 	display: grid;
 	grid-template-areas: 
 		'. header .'
-		'. hero .';
+		'. heroFirst .'
+		'. courses .'
+		'. heroSecond .'
+		'. advantages .';
 	grid-template-columns: 92px 1fr 92px;
-	font-family: osReg;
-	color: #001A34;
+	font-family: var(--f-reg);
+	color: var(--c-midnight);
 }
