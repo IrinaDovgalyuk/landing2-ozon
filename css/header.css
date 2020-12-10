@@ -22,11 +22,11 @@
 	line-height: 20px;
 	letter-spacing: 0.6px;
 	text-decoration: none;
-	color: var(--c-midnight);
+	color: #001A34;
 }
 
 .header__tagline {
-	font-family: var(--f-bold);
+	font-family: osBold;
 	font-size: 22px;
 	line-height: 26px;
 }

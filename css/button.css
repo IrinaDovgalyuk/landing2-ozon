@@ -1,9 +1,6 @@
 .button {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background: var(--c-ozon-blue);
-	color: var(--c-white);
+	background: #005BFF;
+	color: #ffffff;
 	font-size: 22px;
 	line-height: 20px;
 	letter-spacing: 0.7px;
