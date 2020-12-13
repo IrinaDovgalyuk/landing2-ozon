@@ -3,9 +3,11 @@
 @import './normalize.css';
 @import './header.css';
 @import './hero.css';
-@import './button.css';
+@import './common.css';
 @import './courses.css';
 @import './advantages.css';
+@import './request.css';
+@import './footer.css';
 
 .mainWrappper {
 	max-width: 1600px;
@@ -17,7 +19,9 @@
 		'. heroFirst .'
 		'. courses .'
 		'. heroSecond .'
-		'. advantages .';
+		'. advantages .'
+		'request request request'
+		'. footer .';
 	grid-template-columns: 92px 1fr 92px;
 	font-family: var(--f-reg);
 	color: var(--c-midnight);

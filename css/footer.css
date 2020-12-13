@@ -1,0 +1,30 @@
+.footer {
+	grid-area: footer;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 124px;
+	padding: 80px 0;
+}
+
+.footer__copyright {
+	font-family: var(--f-light);
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 0.4px;
+	color: var(--c-midnight);
+}
+
+.footer__socialIcons {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer__socialIcons--item {
+	margin-right: 10px;
+}
+
+.footer__socialIcons--item:last-of-type {
+	margin-right: 0px;
+}
