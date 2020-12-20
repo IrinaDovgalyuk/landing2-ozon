@@ -10,11 +10,12 @@
 @import './footer.css';
 
 .mainWrappper {
+	--side-gap: 92px;
 	max-width: 1600px;
 	width: 100%;
 	margin: 0 auto;
 	display: grid;
-	grid-template-areas: 
+	grid-template-areas:
 		'. header .'
 		'. heroFirst .'
 		'. courses .'
@@ -22,7 +23,19 @@
 		'. advantages .'
 		'request request request'
 		'. footer .';
-	grid-template-columns: 92px 1fr 92px;
+	grid-template-columns: var(--side-gap) 1fr var(--side-gap);
 	font-family: var(--f-reg);
 	color: var(--c-midnight);
+}
+
+@media (max-width: 1508px) {
+	.mainWrapper {
+		--side-gap: 46px;
+	}
+}
+
+@media (max-width: 1000px) {
+	.mainWrapper {
+		--side-gap: 0px;
+	}
 }

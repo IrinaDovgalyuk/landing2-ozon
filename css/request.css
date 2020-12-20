@@ -29,3 +29,19 @@
 .select__text--notSelected {
 	color: var(--c-dark-space);
 }
+
+ 
+@media(max-width:1000px) {
+	.request__title {
+		font-size: 36px;
+		line-height: 42px;
+	}
+} 
+@media(max-width:720px) {
+	.request__form{
+		max-width: 720px;
+		width: 100%;
+		padding: 0 16px;
+	}
+}
+ 
