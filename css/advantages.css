@@ -90,7 +90,7 @@
 	/*	letter-spacing: 0.4px;*/
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1300px) {
 	.advantages__container {
 		justify-content: flex-start;
 	}

@@ -34,10 +34,21 @@
 	display: none;
 }
 
+@media(max-width:1054px) {
+	.footer__copyright {
+		text-align: center;
+		box-sizing: border-box;
+		padding: 0 15px;
+	}
+	.footer__socialIcons {
+		box-sizing: border-box;
+		padding-right:15px;}
+}
+
 @media(max-width:1000px) {
 	.footer {
 		flex-direction: column;
-		justify-content:center;
+		justify-content: center;
 		padding: 56px 16px;
 		min-width: 360px;
 		box-sizing: border-box;
@@ -62,13 +73,14 @@
 		line-height: 26px;
 		letter-spacing: 0.6px;
 	}
-	
-	.footer__copyright{
+
+	.footer__copyright {
 		text-align: center;
-		padding-bottom: 34px;
+		padding: 0 0 34px;
 	}
-	
-	.footer__socialIcons{
+
+	.footer__socialIcons {
 		padding-bottom: 34px;
+		padding-right: 0;
 	}
 }
