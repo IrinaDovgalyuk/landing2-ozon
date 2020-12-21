@@ -10,11 +10,22 @@
 @import './footer.css';
 
 .mainWrappper {
-	--side-gap: 92px;
+	--side-gap: 0px;
 	max-width: 1600px;
 	width: 100%;
 	margin: 0 auto;
 	display: grid;
+	/*
+	grid-template-areas:
+		'header'
+		'heroFirst'
+		'courses'
+		'heroSecond'
+		'advantages'
+		'request'
+		'footer';
+		grid-template-columns: 1fr;
+*/
 	grid-template-areas:
 		'. header .'
 		'. heroFirst .'
@@ -28,14 +39,23 @@
 	color: var(--c-midnight);
 }
 
-@media (max-width: 1508px) {
-	.mainWrapper {
+@media (min-width:1001px) {
+	.mainWrappper {
 		--side-gap: 46px;
 	}
+
+	/*
+		.smallWrapper {
+		max-width: 1416px;
+		width: 100%;
+		margin: 0 auto;
+	}
+*/
 }
 
-@media (max-width: 1000px) {
-	.mainWrapper {
-		--side-gap: 0px;
+@media(min-width:1509px) {
+	.mainWrappper {
+		--side-gap: 92px;
 	}
+
 }
