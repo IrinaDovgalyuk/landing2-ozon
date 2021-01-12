@@ -10,6 +10,19 @@
 	text-decoration: none;
 	padding: 22px 32px;
 	border-radius: 8px;
+	border: 2px solid var(--c-ozon-blue);
+}
+
+.button:hover{
+	background-color: var(--c-white);
+    color: var(--c-ozon-blue);
+    border: 2px solid var(--c-ozon-blue);
+}
+
+.button:active{
+	background-color: var(--c-cadet-blue-50);
+    color: var(--c-white);
+    border: 2px solid var(--c-white);
 }
 
 .input {
@@ -26,11 +39,13 @@
 }
 
 .input::placeholder {
-	color: var(--c-dark-space);
+	color: var(--c-dark-space); 
 }
 
 .input:focus {
-	outline: none;
+	outline: none;	
+	background-color: var(--c-cadet-blue-10);
+	box-shadow:0 0 8px 2px var(--c-cadet-blue-50);
 }
 
 .input--valid {
@@ -52,6 +67,11 @@
 	letter-spacing: 0.7px;
 	cursor: pointer;
 	background: var(--c-white);
+}
+
+.select:active {	
+	background-color: var(--c-cadet-blue-10);
+	box-shadow:0 0 8px 2px var(--c-cadet-blue-50);
 }
 
 .select__icon--opened {

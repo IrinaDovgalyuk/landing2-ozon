@@ -30,6 +30,16 @@
 	margin-right: 0px;
 }
 
+.footer__socialIcons--active:hover{
+	background-color: var(--c-cadet-blue-10);
+	border-radius: 20px;
+	transform: scale(1.5);
+}
+.footer__socialIcons--active:active{
+	background-color: var(--c-cadet-blue-50);
+	border-radius: 20px;
+}
+
 .footer__tagline {
 	display: none;
 }

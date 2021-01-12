@@ -24,6 +24,10 @@
 	text-decoration: none;
 	color: var(--c-midnight);
 }
+.header__navigationLink:hover{
+	transform: scale(1.5) rotate(20deg);
+	color: var(--c-ozon-blue);
+}
 
 .header__tagline {
 	font-family: var(--f-bold);
